@@ -148,25 +148,25 @@
 
 # Backgound color for an active selected item
 # A six-digit hexadecimal RGB color triplet (e.g. fce94f)
-#gui.active_frame.bg: cbe8ff
+gui.active_frame.bg: 9b5b00
 
 # Color style for an active selected item
 # One of: DEFAULT, FLAT, GRADIENT
 # (case-insensitive).
-#gui.active_frame.style: DEFAULT
+gui.active_frame.style: FLAT
 
 # Foregound color for an inactive selected item
 # A six-digit hexadecimal RGB color triplet (e.g. fce94f)
-#gui.inactive_frame.fg: 000000
+gui.inactive_frame.fg: ffffff
 
 # Backgound color for an inactive selected item
 # A six-digit hexadecimal RGB color triplet (e.g. fce94f)
-#gui.inactive_frame.bg: efefef
+gui.inactive_frame.bg: a06900
 
 # Color style for an inactive selected item
 # One of: DEFAULT, FLAT, GRADIENT
 # (case-insensitive).
-#gui.inactive_frame.style: DEFAULT
+gui.inactive_frame.style: FLAT
 
 # Color preferences for a marked frame
 # A six-digit hexadecimal RGB color triplet (e.g. fce94f)
@@ -438,7 +438,7 @@ gui.layout_content_3: PDETAILS
 
 # Remote capture filter
 # A string
-#extcap.ciscodump.remotefilter: deny tcp host 2a05:3e00:9:110a::1003 any eq 0, deny tcp any eq 0 host 2a05:3e00:9:110a::1003, deny tcp host fe80::aede:48ff:fe00:1122 any eq 0, deny tcp any eq 0 host fe80::aede:48ff:fe00:1122, deny tcp host 100.113.10.5 any eq 0, deny tcp any eq 0 host 100.113.10.5, deny tcp host fe80::6c55:3cf7:9643:f4d4 any eq 0, deny tcp any eq 0 host fe80::6c55:3cf7:9643:f4d4, deny tcp host fe80::db77:39bc:6e38:e090 any eq 0, deny tcp any eq 0 host fe80::db77:39bc:6e38:e090, deny tcp host fe80::a00:45f3:4535:1baf any eq 0, deny tcp any eq 0 host fe80::a00:45f3:4535:1baf, deny tcp host fe80::c09f:5a65:b03a:5a1d any eq 0, deny tcp any eq 0 host fe80::c09f:5a65:b03a:5a1d, deny tcp host fe80::9033:6eff:fecb:2195 any eq 0, deny tcp any eq 0 host fe80::9033:6eff:fecb:2195, deny tcp host fe80::9033:6eff:fecb:2195 any eq 0, deny tcp any eq 0 host fe80::9033:6eff:fecb:2195, deny tcp host 2a02:908:e840:bfe0:a869:7b82:faaa:3260 any eq 0, deny tcp any eq 0 host 2a02:908:e840:bfe0:a869:7b82:faaa:3260, deny tcp host 2a02:908:e840:bfe0:8054:7e82:f35e:e714 any eq 0, deny tcp any eq 0 host 2a02:908:e840:bfe0:8054:7e82:f35e:e714, deny tcp host 192.168.0.103 any eq 0, deny tcp any eq 0 host 192.168.0.103, deny tcp host 2a02:908:e840:bfe0:7d00:74a3:9166:911 any eq 0, deny tcp any eq 0 host 2a02:908:e840:bfe0:7d00:74a3:9166:911, deny tcp host 2a02:908:e840:bfe0:1c68:f230:b322:53a9 any eq 0, deny tcp any eq 0 host 2a02:908:e840:bfe0:1c68:f230:b322:53a9, deny tcp host fe80::1407:e0c4:82d3:62a any eq 0, deny tcp any eq 0 host fe80::1407:e0c4:82d3:62a, deny tcp host fe80::aede:48ff:fe00:1122 any eq 0, deny tcp any eq 0 host fe80::aede:48ff:fe00:1122, deny tcp host fe80::1 any eq 0, deny tcp any eq 0 host fe80::1, permit ip any any
+#extcap.ciscodump.remotefilter: deny tcp host fe80::f234:d439:34bf:2e7a any eq 0, deny tcp any eq 0 host fe80::f234:d439:34bf:2e7a, deny tcp host fe80::c1cb:fbc4:c905:690f any eq 0, deny tcp any eq 0 host fe80::c1cb:fbc4:c905:690f, deny tcp host 2a05:3e00:9:110a::1003 any eq 0, deny tcp any eq 0 host 2a05:3e00:9:110a::1003, deny tcp host fe80::aede:48ff:fe00:1122 any eq 0, deny tcp any eq 0 host fe80::aede:48ff:fe00:1122, deny tcp host 100.113.10.5 any eq 0, deny tcp any eq 0 host 100.113.10.5, deny tcp host fe80::6c55:3cf7:9643:f4d4 any eq 0, deny tcp any eq 0 host fe80::6c55:3cf7:9643:f4d4, deny tcp host fe80::db77:39bc:6e38:e090 any eq 0, deny tcp any eq 0 host fe80::db77:39bc:6e38:e090, deny tcp host fe80::a00:45f3:4535:1baf any eq 0, deny tcp any eq 0 host fe80::a00:45f3:4535:1baf, deny tcp host fe80::c09f:5a65:b03a:5a1d any eq 0, deny tcp any eq 0 host fe80::c09f:5a65:b03a:5a1d, deny tcp host fe80::9033:6eff:fecb:2195 any eq 0, deny tcp any eq 0 host fe80::9033:6eff:fecb:2195, deny tcp host fe80::9033:6eff:fecb:2195 any eq 0, deny tcp any eq 0 host fe80::9033:6eff:fecb:2195, deny tcp host 2a02:908:e840:bfe0:5428:f488:cb1f:1189 any eq 0, deny tcp any eq 0 host 2a02:908:e840:bfe0:5428:f488:cb1f:1189, deny tcp host 2a02:908:e840:bfe0:f990:9909:95bb:67aa any eq 0, deny tcp any eq 0 host 2a02:908:e840:bfe0:f990:9909:95bb:67aa, deny tcp host 2a02:908:e840:bfe0:4971:408c:758f:24ce any eq 0, deny tcp any eq 0 host 2a02:908:e840:bfe0:4971:408c:758f:24ce, deny tcp host 2a02:908:e840:bfe0:a869:7b82:faaa:3260 any eq 0, deny tcp any eq 0 host 2a02:908:e840:bfe0:a869:7b82:faaa:3260, deny tcp host 2a02:908:e840:bfe0:8054:7e82:f35e:e714 any eq 0, deny tcp any eq 0 host 2a02:908:e840:bfe0:8054:7e82:f35e:e714, deny tcp host 192.168.0.103 any eq 0, deny tcp any eq 0 host 192.168.0.103, deny tcp host 2a02:908:e840:bfe0:7d00:74a3:9166:911 any eq 0, deny tcp any eq 0 host 2a02:908:e840:bfe0:7d00:74a3:9166:911, deny tcp host 2a02:908:e840:bfe0:1c68:f230:b322:53a9 any eq 0, deny tcp any eq 0 host 2a02:908:e840:bfe0:1c68:f230:b322:53a9, deny tcp host fe80::1407:e0c4:82d3:62a any eq 0, deny tcp any eq 0 host fe80::1407:e0c4:82d3:62a, deny tcp host fe80::aede:48ff:fe00:1122 any eq 0, deny tcp any eq 0 host fe80::aede:48ff:fe00:1122, deny tcp host fe80::1 any eq 0, deny tcp any eq 0 host fe80::1, permit ip any any
 
 # Packets to capture
 # A string
@@ -506,7 +506,7 @@ gui.layout_content_3: PDETAILS
 
 # Remote capture filter
 # A string
-#extcap.sshdump.remotefilter: not ((host 2a05:3e00:9:110a::1003 or host fe80::aede:48ff:fe00:1122 or host 100.113.10.5 or host fe80::6c55:3cf7:9643:f4d4 or host fe80::db77:39bc:6e38:e090 or host fe80::a00:45f3:4535:1baf or host fe80::c09f:5a65:b03a:5a1d or host fe80::9033:6eff:fecb:2195 or host fe80::9033:6eff:fecb:2195 or host 2a02:908:e840:bfe0:a869:7b82:faaa:3260 or host 2a02:908:e840:bfe0:8054:7e82:f35e:e714 or host 192.168.0.103 or host 2a02:908:e840:bfe0:7d00:74a3:9166:911 or host 2a02:908:e840:bfe0:1c68:f230:b322:53a9 or host fe80::1407:e0c4:82d3:62a or host fe80::aede:48ff:fe00:1122 or host fe80::1) and port 22)
+#extcap.sshdump.remotefilter: not ((host fe80::f234:d439:34bf:2e7a or host fe80::c1cb:fbc4:c905:690f or host 2a05:3e00:9:110a::1003 or host fe80::aede:48ff:fe00:1122 or host 100.113.10.5 or host fe80::6c55:3cf7:9643:f4d4 or host fe80::db77:39bc:6e38:e090 or host fe80::a00:45f3:4535:1baf or host fe80::c09f:5a65:b03a:5a1d or host fe80::9033:6eff:fecb:2195 or host fe80::9033:6eff:fecb:2195 or host 2a02:908:e840:bfe0:5428:f488:cb1f:1189 or host 2a02:908:e840:bfe0:f990:9909:95bb:67aa or host 2a02:908:e840:bfe0:4971:408c:758f:24ce or host 2a02:908:e840:bfe0:a869:7b82:faaa:3260 or host 2a02:908:e840:bfe0:8054:7e82:f35e:e714 or host 192.168.0.103 or host 2a02:908:e840:bfe0:7d00:74a3:9166:911 or host 2a02:908:e840:bfe0:1c68:f230:b322:53a9 or host fe80::1407:e0c4:82d3:62a or host fe80::aede:48ff:fe00:1122 or host fe80::1) and port 22)
 
 # Packets to capture
 # A string
@@ -1709,6 +1709,10 @@ protocols.enable_incomplete_dissectors_check: TRUE
 # Whether the DSI dissector should reassemble messages spanning multiple TCP segments. To use this option, you must also enable "Allow subdissectors to reassemble TCP streams" in the TCP protocol settings.
 # TRUE or FALSE (case-insensitive)
 #dsi.desegment: TRUE
+
+# Semicolon-separated list of private RSA keys used for DTLS decryption. Used by versions of Wireshark prior to 1.6
+# A string
+#dtls.keys_list: 
 
 # redirect dtls debug to file name; leave empty to disable debug, use "-" to redirect output to stderr
 # 
@@ -4825,6 +4829,10 @@ pdcp-lte.decipher_userplane: TRUE
 # Whether the TIPC-over-TCP dissector should reassemble messages spanning multiple TCP segments. To use this option, you must also enable "Allow subdissectors to reassemble TCP streams" in the TCP protocol settings.
 # TRUE or FALSE (case-insensitive)
 #tipc.desegment: TRUE
+
+# Semicolon-separated list of private RSA keys used for TLS decryption. Used by versions of Wireshark prior to 1.6
+# A string
+#tls.keys_list: 
 
 # Redirect TLS debug to the file specified. Leave empty to disable debugging or use "-" to redirect output to stderr.
 # A path to a file
