@@ -11,3 +11,4 @@ decode_as_entry: tcp.port,29509,(none),HTTP2
 decode_as_entry: tcp.port,29510,(none),HTTP2
 decode_as_entry: tcp.port,29518,(none),HTTP2
 decode_as_entry: tcp.port,29531,(none),HTTP2
+decode_as_entry: tcp.port,8000,(none),HTTP2
