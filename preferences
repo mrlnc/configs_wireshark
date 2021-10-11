@@ -1,4 +1,4 @@
-# Configuration file for Wireshark 3.4.3.
+# Configuration file for Wireshark 3.4.6.
 #
 # This file is regenerated each time preferences are saved within
 # Wireshark. Making manual changes should be safe, however.
@@ -216,7 +216,7 @@ gui.color_filter_bg.deprecated: a57704
 
 # Packet list hidden columns
 # List all columns to hide in the packet list.
-gui.column.hidden: %L,%p
+gui.column.hidden: %L,%d,%Cus:ngap.RAN_UE_NGAP_ID:0:R,%p,%Cus:ngap.AMF_UE_NGAP_ID:0:R
 
 # Packet list column format
 # Each pair of strings consists of a column title and its format
@@ -440,7 +440,7 @@ capture.devices_pmode: en0(1),p2p0(1),awdl0(1),llw0(1),utun0(1),utun1(1),utun2(1
 
 # Remote capture filter
 # A string
-#extcap.ciscodump.remotefilter: deny tcp host 2a05:3e00:9:110a::1003 any eq 0, deny tcp any eq 0 host 2a05:3e00:9:110a::1003, deny tcp host fe80::aede:48ff:fe00:1122 any eq 0, deny tcp any eq 0 host fe80::aede:48ff:fe00:1122, deny tcp host 100.113.10.5 any eq 0, deny tcp any eq 0 host 100.113.10.5, deny tcp host fe80::2929:28f6:86d0:9d36 any eq 0, deny tcp any eq 0 host fe80::2929:28f6:86d0:9d36, deny tcp host fe80::fe93:e9df:cb8f:8133 any eq 0, deny tcp any eq 0 host fe80::fe93:e9df:cb8f:8133, deny tcp host fe80::25bb:b1e1:1af:8f05 any eq 0, deny tcp any eq 0 host fe80::25bb:b1e1:1af:8f05, deny tcp host fe80::39aa:aeea:27ec:8e90 any eq 0, deny tcp any eq 0 host fe80::39aa:aeea:27ec:8e90, deny tcp host fe80::ec02:6d90:b0b0:5ae3 any eq 0, deny tcp any eq 0 host fe80::ec02:6d90:b0b0:5ae3, deny tcp host fe80::bea0:22ed:5369:fecf any eq 0, deny tcp any eq 0 host fe80::bea0:22ed:5369:fecf, deny tcp host fe80::f83f:75ff:fef7:1c7e any eq 0, deny tcp any eq 0 host fe80::f83f:75ff:fef7:1c7e, deny tcp host fe80::f83f:75ff:fef7:1c7e any eq 0, deny tcp any eq 0 host fe80::f83f:75ff:fef7:1c7e, deny tcp host fd6a:8a79:c87f:0:b0a1:3934:61e2:e70d any eq 0, deny tcp any eq 0 host fd6a:8a79:c87f:0:b0a1:3934:61e2:e70d, deny tcp host fd6a:8a79:c87f:0:84b:80d2:773e:7ba5 any eq 0, deny tcp any eq 0 host fd6a:8a79:c87f:0:84b:80d2:773e:7ba5, deny tcp host 192.168.1.229 any eq 0, deny tcp any eq 0 host 192.168.1.229, deny tcp host fe80::180c:4b9a:c72:c336 any eq 0, deny tcp any eq 0 host fe80::180c:4b9a:c72:c336, deny tcp host fe80::aede:48ff:fe00:1122 any eq 0, deny tcp any eq 0 host fe80::aede:48ff:fe00:1122, deny tcp host fe80::1 any eq 0, deny tcp any eq 0 host fe80::1, permit ip any any
+#extcap.ciscodump.remotefilter: deny tcp host fe80::c6c3:85d0:e48b:f06 any eq 0, deny tcp any eq 0 host fe80::c6c3:85d0:e48b:f06, deny tcp host fe80::3ac2:e6d0:401b:ac05 any eq 0, deny tcp any eq 0 host fe80::3ac2:e6d0:401b:ac05, deny tcp host fe80::b31b:3c47:273b:2b8c any eq 0, deny tcp any eq 0 host fe80::b31b:3c47:273b:2b8c, deny tcp host fe80::9be9:9603:4ca7:814f any eq 0, deny tcp any eq 0 host fe80::9be9:9603:4ca7:814f, deny tcp host fe80::d6c:570e:fef9:29ce any eq 0, deny tcp any eq 0 host fe80::d6c:570e:fef9:29ce, deny tcp host fe80::bed:55bd:1b1c:2f21 any eq 0, deny tcp any eq 0 host fe80::bed:55bd:1b1c:2f21, deny tcp host fe80::808a:3df:edef:8895 any eq 0, deny tcp any eq 0 host fe80::808a:3df:edef:8895, deny tcp host fe80::db2c:1101:5506:8197 any eq 0, deny tcp any eq 0 host fe80::db2c:1101:5506:8197, deny tcp host fe80::6890:69ff:fe1d:9d91 any eq 0, deny tcp any eq 0 host fe80::6890:69ff:fe1d:9d91, deny tcp host fe80::6890:69ff:fe1d:9d91 any eq 0, deny tcp any eq 0 host fe80::6890:69ff:fe1d:9d91, deny tcp host 2a02:908:e840:bfe0:88b0:3087:a45e:e740 any eq 0, deny tcp any eq 0 host 2a02:908:e840:bfe0:88b0:3087:a45e:e740, deny tcp host 192.168.0.248 any eq 0, deny tcp any eq 0 host 192.168.0.248, deny tcp host 2a02:908:e840:bfe0:703f:be52:141a:2c15 any eq 0, deny tcp any eq 0 host 2a02:908:e840:bfe0:703f:be52:141a:2c15, deny tcp host 2a02:908:e840:bfe0:1c68:f230:b322:53a9 any eq 0, deny tcp any eq 0 host 2a02:908:e840:bfe0:1c68:f230:b322:53a9, deny tcp host fe80::cbc:3c61:dd24:d869 any eq 0, deny tcp any eq 0 host fe80::cbc:3c61:dd24:d869, deny tcp host fe80::aede:48ff:fe00:1122 any eq 0, deny tcp any eq 0 host fe80::aede:48ff:fe00:1122, deny tcp host fe80::1 any eq 0, deny tcp any eq 0 host fe80::1, permit ip any any
 
 # Packets to capture
 # A string
@@ -508,7 +508,7 @@ capture.devices_pmode: en0(1),p2p0(1),awdl0(1),llw0(1),utun0(1),utun1(1),utun2(1
 
 # Remote capture filter
 # A string
-#extcap.sshdump.remotefilter: not ((host 2a05:3e00:9:110a::1003 or host fe80::aede:48ff:fe00:1122 or host 100.113.10.5 or host fe80::2929:28f6:86d0:9d36 or host fe80::fe93:e9df:cb8f:8133 or host fe80::25bb:b1e1:1af:8f05 or host fe80::39aa:aeea:27ec:8e90 or host fe80::ec02:6d90:b0b0:5ae3 or host fe80::bea0:22ed:5369:fecf or host fe80::f83f:75ff:fef7:1c7e or host fe80::f83f:75ff:fef7:1c7e or host fd6a:8a79:c87f:0:b0a1:3934:61e2:e70d or host fd6a:8a79:c87f:0:84b:80d2:773e:7ba5 or host 192.168.1.229 or host fe80::180c:4b9a:c72:c336 or host fe80::aede:48ff:fe00:1122 or host fe80::1) and port 22)
+#extcap.sshdump.remotefilter: not ((host fe80::c6c3:85d0:e48b:f06 or host fe80::3ac2:e6d0:401b:ac05 or host fe80::b31b:3c47:273b:2b8c or host fe80::9be9:9603:4ca7:814f or host fe80::d6c:570e:fef9:29ce or host fe80::bed:55bd:1b1c:2f21 or host fe80::808a:3df:edef:8895 or host fe80::db2c:1101:5506:8197 or host fe80::6890:69ff:fe1d:9d91 or host fe80::6890:69ff:fe1d:9d91 or host 2a02:908:e840:bfe0:88b0:3087:a45e:e740 or host 192.168.0.248 or host 2a02:908:e840:bfe0:703f:be52:141a:2c15 or host 2a02:908:e840:bfe0:1c68:f230:b322:53a9 or host fe80::cbc:3c61:dd24:d869 or host fe80::aede:48ff:fe00:1122 or host fe80::1) and port 22)
 
 # Packets to capture
 # A string
@@ -2929,7 +2929,7 @@ protocols.enable_incomplete_dissectors_check: TRUE
 
 # Use SAPI values as specified in TS 48 056
 # TRUE or FALSE (case-insensitive)
-#lapd.use_gsm_sapi_values: FALSE
+lapd.use_gsm_sapi_values: TRUE
 
 # RTP payload types for embedded LAPD; values must be in the range 1 - 127
 # A string denoting an positive integer range (e.g., "1-20,30-40")
@@ -3053,7 +3053,7 @@ protocols.enable_incomplete_dissectors_check: TRUE
 # Set whether LCID -> drb Table is taken from static table (below) or from info learned from control protocol (e.g. RRC)
 # One of: From static table, From configuration protocol
 # (case-insensitive).
-#mac-lte.lcid_to_drb_mapping_source: From static table
+mac-lte.lcid_to_drb_mapping_source: From configuration protocol
 
 # If any BSR report is >= this number, an expert warning will be added
 # A decimal number
@@ -3070,7 +3070,7 @@ protocols.enable_incomplete_dissectors_check: TRUE
 
 # Attempt to decode 6 bytes of Contention Resolution body as an UL CCCH PDU
 # TRUE or FALSE (case-insensitive)
-#mac-lte.decode_cr_body: FALSE
+mac-lte.decode_cr_body: TRUE
 
 # Apply DRX config and show DRX state within each UE
 # TRUE or FALSE (case-insensitive)
